@@ -1,0 +1,8 @@
+{"data": [
+    {"id": 1, "car_id": 1, "amount": 11, "price_per_one": 1234, "date": "2023-01-01", "dealer_id": 1, "supplier_id": 1},
+    {"id": 2, "car_id": 2, "amount": 1, "price_per_one": 1234, "date": "2023-01-01", "dealer_id": 2, "supplier_id": 2},
+    {"id": 3, "car_id": 3, "amount": 5, "price_per_one": 1234, "date": "2023-01-01", "dealer_id": 3, "supplier_id": 3},
+    {"id": 4, "car_id": 4, "amount": 1, "price_per_one": 1234, "date": "2023-01-01", "dealer_id": 1, "supplier_id": 4},
+    {"id": 5, "car_id": 5, "amount": 8, "price_per_one": 1234, "date": "2023-01-01", "dealer_id": 2, "supplier_id": 5}
+
+]}

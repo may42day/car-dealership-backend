@@ -1,0 +1,7 @@
+{"data": [
+    {"id": 1, "name": "AutoParts Source Co.", "balance": 1000000000, "place": "US", "foundation_date": "1998-06-15"},
+    {"id": 2, "name": "CarTech Supplies Inc.", "balance": 1000000000, "place": "US", "foundation_date": "2001-03-25"},
+    {"id": 3, "name": "Wheels and More Supply", "balance": 1000000000, "place": "US", "foundation_date": "1993-08-17"},
+    {"id": 4, "name": "Speedy Parts Distributors", "balance": 1000000000, "place": "US", "foundation_date": "2005-11-09"},
+    {"id": 5, "name": "DriveParts International", "balance": 1000000000, "place": "US", "foundation_date": "2012-04-03"}
+]}

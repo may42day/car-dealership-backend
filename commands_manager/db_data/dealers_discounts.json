@@ -1,0 +1,8 @@
+{"data": [
+    {"id": 1, "dealer_id": 1, "name": "Discount #1", "min_amount": 5, "percentage": 10, "discount_type": "CD"},
+    {"id": 2, "dealer_id": 2, "name": "Discount #2", "min_amount": 5, "percentage": 10, "discount_type": "CD"},
+    {"id": 3, "dealer_id": 3, "name": "Discount #2", "min_amount": 5, "percentage": 10, "discount_type": "CD"},
+    {"id": 4, "dealer_id": 4, "name": "Discount #2", "min_amount": 5, "percentage": 10, "discount_type": "CD"},
+    {"id": 5, "dealer_id": 5, "name": "Discount #2", "min_amount": 5, "percentage": 10, "discount_type": "CD"},
+    {"id": 6, "dealer_id": 6, "name": "Discount #2", "min_amount": 5, "percentage": 10, "discount_type": "CD"}
+]}

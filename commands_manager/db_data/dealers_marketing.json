@@ -1,0 +1,5 @@
+{"data": [
+    {"id": 1, "dealer_id": 1, "name": "Discount #1", "description": "Some description", "percentage": 6, "start_date": "2023-09-15T14:30:00Z", "end_date": "2023-09-15T14:30:00Z"},
+    {"id": 2, "dealer_id": 2, "name": "Discount #11", "description": "Some description", "percentage": 2.4, "start_date": "2023-09-15T14:30:00Z", "end_date": "2023-09-15T14:30:00Z"},
+    {"id": 3, "dealer_id": 2, "name": "Discount #11", "description": "Some description", "percentage": 2.4, "start_date": "2023-09-15T14:30:00Z", "end_date": "2023-09-15T14:30:00Z"}
+]}

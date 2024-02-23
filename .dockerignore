@@ -1,0 +1,12 @@
+# docker volume
+data
+pgdata
+tests
+pytest.ini
+nginx
+venv
+.env_example
+.gitignore
+pytest.ini
+README.md
+logs

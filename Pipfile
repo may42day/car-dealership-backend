@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+django = "*"
+psycopg2-binary = "*"
+django-countries = "*"
+django-dynamic-fixture = "*"
+pytest-django = "*"
+django-filter = "*"
+djangorestframework = "*"
+djangorestframework-simplejwt = "*"
+pytest-dependency = "*"
+gunicorn = "*"
+drf-yasg = "*"
+django-debug-toolbar = "*"
+celery = "*"
+redis = "*"
+django-celery-beat = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

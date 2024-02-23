@@ -1,0 +1,15 @@
+{% extends "users/base_email.html" %}
+
+{% block title %}Confirm Your Registration{% endblock %}
+
+{% block content %}
+<p style="margin: 0;">Tap the button below to confirm your account registration.
+If you didn't request a registration, you can safely delete this email.</p>
+{% endblock %}
+
+{% block button %}confirm{% endblock %}
+
+{% block action %}
+<p style="margin: 0;">You received this email because we received a request for register a new account.
+If you didn't register you can safely delete this email.</p>
+{% endblock %}

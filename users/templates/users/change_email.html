@@ -1,0 +1,15 @@
+{% extends "users/base_email.html" %}
+
+{% block title %}Change Your Login{% endblock %}
+
+{% block content %}
+<p style="margin: 0;">Tap the button below to change your email.
+If you didn't request a email change, you can safely delete this email.</p>
+{% endblock %}
+
+{% block button %}change email{% endblock %}
+
+{% block action %}
+<p style="margin: 0;">You received this email because we received a request for email change.
+If you didn't change email you can safely delete this email.</p>
+{% endblock %}

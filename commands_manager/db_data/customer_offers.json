@@ -1,0 +1,6 @@
+{"data": [
+    {"customer_id": 1, "characteristic_id": 1, "max_price": 1234, "place": "CA"},
+    {"customer_id": 2, "characteristic_id": 2, "max_price": 1234, "place": "CA"},
+    {"customer_id": 3, "characteristic_id": 3, "max_price": 1234, "place": "CA"},
+    {"customer_id": 4, "characteristic_id": 4, "max_price": 1234, "place": "CA"}
+]}

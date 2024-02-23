@@ -1,0 +1,22 @@
+{"data": [
+    {"id": 1, "brand": "Chevrolet", "car_model": "Corvette", "generation": "C6", "year_release": 2005, "year_end_of_production": 2013},
+    {"id": 2, "brand": "Ford", "car_model": "Mustang", "generation": "S197", "year_release": 2005, "year_end_of_production": 2014},
+    {"id": 3, "brand": "BMW", "car_model": "M3", "generation": "E92", "year_release": 2007, "year_end_of_production": 2013},
+    {"id": 4, "brand": "Audi", "car_model": "A4", "generation": "B8", "year_release": 2008, "year_end_of_production": 2016},
+    {"id": 5, "brand": "Toyota", "car_model": "Camry", "generation": "XV40", "year_release": 2006, "year_end_of_production": 2011},
+    {"id": 6, "brand": "Nissan", "car_model": "370Z", "generation": "Z34", "year_release": 2008, "year_end_of_production": 2020},
+    {"id": 7, "brand": "Mercedes-Benz", "car_model": "E-Class", "generation": "W212", "year_release": 2009, "year_end_of_production": 2016},
+    {"id": 8, "brand": "Subaru", "car_model": "Impreza", "generation": "GH/GV", "year_release": 2007, "year_end_of_production": 2014},
+    {"id": 9, "brand": "Volkswagen", "car_model": "Golf", "generation": "Mk6", "year_release": 2008, "year_end_of_production": 2013},
+    {"id": 10, "brand": "Honda", "car_model": "Civic", "generation": "FD", "year_release": 2006, "year_end_of_production": 2011},
+    {"id": 11, "brand": "Lexus", "car_model": "IS", "generation": "XE20", "year_release": 2005, "year_end_of_production": 2013},
+    {"id": 12, "brand": "Mazda", "car_model": "MX-5", "generation": "NC", "year_release": 2005, "year_end_of_production": 2015},
+    {"id": 13, "brand": "Jeep", "car_model": "Wrangler", "generation": "JK", "year_release": 2007, "year_end_of_production": 2018},
+    {"id": 14, "brand": "Porsche", "car_model": "911", "generation": "997", "year_release": 2004, "year_end_of_production": 2012},
+    {"id": 15, "brand": "Chevrolet", "car_model": "Camaro", "generation": "5th Gen", "year_release": 2009, "year_end_of_production": 2015},
+    {"id": 16, "brand": "Ford", "car_model": "F-150", "generation": "12th Gen", "year_release": 2009, "year_end_of_production": 2014},
+    {"id": 17, "brand": "Dodge", "car_model": "Challenger", "generation": "3rd Gen", "year_release": 2008, "year_end_of_production": 2019},
+    {"id": 18, "brand": "Jaguar", "car_model": "XF", "generation": "X250", "year_release": 2007, "year_end_of_production": 2015},
+    {"id": 19, "brand": "Subaru", "car_model": "Forester", "generation": "SH", "year_release": 2008, "year_end_of_production": 2012},
+    {"id": 20, "brand": "Nissan", "car_model": "Altima", "generation": "L32A", "year_release": 2006, "year_end_of_production": 2012}
+]}

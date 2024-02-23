@@ -1,0 +1,9 @@
+{"data": [
+    {"id": 1, "customer_id": 1, "amount": 10, "dealer_id": 1},
+    {"id": 2, "customer_id": 1, "amount": 10, "dealer_id": 2},
+    {"id": 3, "customer_id": 2, "amount": 10, "dealer_id": 3},
+    {"id": 4, "customer_id": 3, "amount": 10, "dealer_id": 4},
+    {"id": 5, "customer_id": 4, "amount": 10, "dealer_id": 1},
+    {"id": 6, "customer_id": 5, "amount": 10, "dealer_id": 2},
+    {"id": 7, "customer_id": 6, "amount": 10, "dealer_id": 3}
+]}

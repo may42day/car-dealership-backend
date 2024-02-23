@@ -1,0 +1,71 @@
+version: "3.8"
+
+services:
+    db_pg:
+      image: postgres:alpine3.17
+      restart: always
+      container_name: "${DB_PG_NAME}"
+      environment:
+          POSTGRES_DB: "${DB_PG_NAME}"
+          POSTGRES_USER: "${DB_PG_USER}"
+          POSTGRES_PASSWORD: "${DB_PG_PASSWORD}"
+          PGDATA: "${DB_PG_PGDATA}"
+      volumes:
+          - ./../data/postgres:/var/lib/postgresql/data/
+      ports:
+          - "5432:5432"
+
+    backend:
+      build: .
+      restart: always
+      ports:
+        - 8000:8000
+      volumes:
+        - ${PWD}:/app
+      command: "gunicorn -c gunicorn.py car_dealership.wsgi"
+      depends_on:
+        - db_pg
+        - redis
+      links:
+        - redis
+        
+    nginx:
+      image: nginx:latest
+      restart: always
+      expose:
+        - 8080
+      ports:
+        - "80:8080"
+      volumes:
+          - ./static:/app/static
+          - ./nginx:/etc/nginx/conf.d
+          - ./logs:/app/logs
+      depends_on:
+        - backend
+
+    redis:
+      image: redis:latest
+      container_name: redis 
+      restart: always
+      ports:
+          - '6379:6379'
+
+    celery_worker:
+      build: .
+      restart: always
+      depends_on:
+        - backend
+        - redis
+      command: "celery -A car_dealership worker --loglevel=info"
+      volumes:
+        - .:/app 
+    
+    celery_beat:
+      restart: always
+      build: .
+      command: "celery -A car_dealership beat -l INFO --scheduler django_celery_beat.schedulers:DatabaseScheduler"
+      volumes:
+        - .:/app 
+      depends_on:
+        - redis
+        - celery_worker

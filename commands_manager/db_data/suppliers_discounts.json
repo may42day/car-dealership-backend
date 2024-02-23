@@ -1,0 +1,12 @@
+{"data": [
+    {"id": 1, "supplier_id": 1, "name": "Discount CD #1", "min_amount": 1000, "percentage": 2, "discount_type": "CD"},
+    {"id": 2, "supplier_id": 2, "name": "Discount CD #2", "min_amount": 2000, "percentage": 4, "discount_type": "CD"},
+    {"id": 3, "supplier_id": 3, "name": "Discount CD #3", "min_amount": 3000, "percentage": 6, "discount_type": "CD"},
+    {"id": 4, "supplier_id": 4, "name": "Discount CD #4", "min_amount": 4000, "percentage": 8, "discount_type": "CD"},
+    {"id": 5, "supplier_id": 5, "name": "Discount CD #5", "min_amount": 5000, "percentage": 10, "discount_type": "CD"},
+    {"id": 6, "supplier_id": 1, "name": "Discount BD #1", "min_amount": 1000, "percentage": 15, "discount_type": "BD"},
+    {"id": 7, "supplier_id": 2, "name": "Discount BD #2", "min_amount": 2000, "percentage": 20, "discount_type": "BD"},
+    {"id": 8, "supplier_id": 3, "name": "Discount BD #3", "min_amount": 3000, "percentage": 30, "discount_type": "BD"},
+    {"id": 9, "supplier_id": 4, "name": "Discount BD #4", "min_amount": 4000, "percentage": 40, "discount_type": "BD"},
+    {"id": 10, "supplier_id": 5, "name": "Discount BD #5", "min_amount": 5000, "percentage": 40, "discount_type": "BD"}
+]}

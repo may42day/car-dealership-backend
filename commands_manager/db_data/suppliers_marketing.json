@@ -1,0 +1,7 @@
+{"data": [
+    {"id": 1, "supplier_id": 1, "name": "Marketing Campaign #1", "description": "Some description", "percentage": 1, "start_date": "2023-09-15T14:30:00Z", "end_date": "2023-12-15T14:30:00Z"},
+    {"id": 2, "supplier_id": 2, "name": "Marketing Campaign #2", "description": "Some description", "percentage": 1, "start_date": "2023-09-15T14:30:00Z", "end_date": "2023-12-15T14:30:00Z"},
+    {"id": 3, "supplier_id": 3, "name": "Marketing Campaign #3", "description": "Some description", "percentage": 1, "start_date": "2023-09-15T14:30:00Z", "end_date": "2023-12-15T14:30:00Z"},
+    {"id": 4, "supplier_id": 4, "name": "Marketing Campaign #4", "description": "Some description", "percentage": 1, "start_date": "2023-09-15T14:30:00Z", "end_date": "2023-12-15T14:30:00Z"},
+    {"id": 5, "supplier_id": 5, "name": "Marketing Campaign #5", "description": "Some description", "percentage": 1, "start_date": "2023-09-15T14:30:00Z", "end_date": "2023-12-15T14:30:00Z"}
+]}

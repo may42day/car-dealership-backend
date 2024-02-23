@@ -1,0 +1,9 @@
+{"data": [
+    {"id": 1, "characteristic_id": 1},
+    {"id": 1, "characteristic_id": 2},
+    {"id": 1, "characteristic_id": 3},
+    {"id": 2, "characteristic_id": 3},
+    {"id": 3, "characteristic_id": 4},
+    {"id": 4, "characteristic_id": 5},
+    {"id": 5, "characteristic_id": 6}
+]}
